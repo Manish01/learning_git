@@ -10,3 +10,5 @@ After installing Git.
 	git config --glocal user.name  "gituser"                                  
 
 It will track all the commits/changes on your github repository done by the specific user
+
+----- x -------- x --------- x -------- x --------- x -------- x ------- x --------
