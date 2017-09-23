@@ -4,6 +4,7 @@ This tutorial teach you basic git commands and how to setup/manage Git repositor
 After installing Git.
 1. SignUp and create an account on Github
 2. On your local machine(Git server), add your github email and username to git.
+
 	git config --global user.email "email@email.com"
 	git config --glocal user.name  "gituser"
 
