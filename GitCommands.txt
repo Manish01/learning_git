@@ -25,3 +25,22 @@ ANOTHER WAY IS TO
 	d.	commit changes to git:# git commit -m "commited"
 	e.	git remote add origin https://github.com/Manish01/learning_git.git
 	f. 	git push -u origin master
+
+
+
+CREATE REPO on GitHUB FROM GIT COMMANDLINE via api and push localrepo to it
+===============================================================================
+#CREATE LOCALREPO "soo"
+   #	mkdir soo
+   #	cd soo/
+   #	git init 
+   #	echo "Sample" >> README.md
+   #	git status 
+   #	git add . 
+   #	git status 
+   #	git commit -m "Added som"
+
+#EXECUTE COMMAND TO CREATE GITHUB REPO for "soo" 
+   #	curl -u "Manish01" https://api.github.com/user/repos -d '{"name":"soo"}'
+   #	git remote add origin https://github.com/Manish01/soo.git
+   #	git push -u origin master
