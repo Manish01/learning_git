@@ -1,0 +1,26 @@
+After installing Git.
+1. SignUp and create an account on Github
+2. Create a repoistory on github: "learning_git"
+3  Create a directory with same name on local computer(your git server) "learning_git"
+4. Enter into the directory >> cd learning_git
+5. Execute# git init
+6. Create a file : 
+	# touch GitCommands.txt
+7. add changes to local git#  
+	# git add GitCommands.txt
+8. commit changes to git:
+	# git commit -m "first commit on learning_git repo" 
+9. Send Changes to GITHUB 
+	# git remote add origin https://github.com/Manish01/learning_git.git # --> this is github clone uri
+        # git push -u origin master
+
+ANOTHER WAY IS TO
+1. SignUp and create an account on Github
+2. Create a repoistory on github: "learning_git"
+3. Pull that repo from github to local computer.
+	a.	git pull  https://github.com/Manish01/learning_git.git
+	b.	make changes on your file
+	c.	add changes to git:#    git GitCommands.txt
+	d.	commit changes to git:# git commit -m "commited"
+	e.	git remote add origin https://github.com/Manish01/learning_git.git
+	f. 	git push -u origin master
