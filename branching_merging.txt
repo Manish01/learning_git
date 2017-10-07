@@ -1,0 +1,10 @@
+# BRANCHING AND MERGING
+-----------------------------------
+
+STEP 1: Enter into repo dir in local system and Create branch by executing below command
+ 	>> git branch <Branchname>
+
+STEP 2: Checkout branch(switch branch)
+	>> git checkout <Branchname>
+  * Now our local will be on the new branch.
+  * whatever changes we make here will go to this new branch.
