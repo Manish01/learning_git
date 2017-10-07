@@ -1,2 +1,18 @@
 # Git tags
 ---------------
+Tagging in GIT is: to create specific points in history of your repository/data
+This is usually done to mark release points.
+Example: your product is stable and you want to mark it as release 1.0, you can create atag for that.
+
+STEP 1: Checkout the branch where you want to create tags.
+	>> git checkout <branchname>
+	>> git tag v1.0
+      OR i can use annotated tags
+	>> git tag -a v1.0 -m "This is release version 1"
+
+STEP 2: Display or show tags
+	>> git tag
+	>> git show <tagname>
+	>> git tag -l "tagname.*" # Wild card 
+
+
