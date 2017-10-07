@@ -1,0 +1,11 @@
+# EMAIL NOTIFICATION FROM GITHUB IF THERE IS ANY CHANGE/COMMIT IN THE PROJECT
+
+STEP 1: Login Github -> Goto Repository -> Settings -> Integration & services
+
+STEP 2: Add Service
+	>> Search and select email
+
+STEP 3: Add address/email and select send from author and save
+
+STEP 4: Test and validate by making changes in that repo project.
+
