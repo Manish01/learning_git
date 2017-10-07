@@ -15,3 +15,6 @@ STEP 3: Merge new branch to master branch
 STEP 4: Push changes to the origin master branch
    	>> git status 
    	>> git push origin master
+
+STEP 5: Delete Branch
+	>> git branch -d <Branchname>
