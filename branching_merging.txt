@@ -8,3 +8,6 @@ STEP 2: Checkout branch(switch branch)
 	>> git checkout <Branchname>
   * Now our local will be on the new branch.
   * whatever changes we make here will go to this new branch.
+
+STEP 3: Merge new branch to master branch
+  	>> git merge <Branchname>
