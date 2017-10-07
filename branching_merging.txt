@@ -16,5 +16,9 @@ STEP 4: Push changes to the origin master branch
    	>> git status 
    	>> git push origin master
 
-STEP 5: Delete Branch
+STEP 5: Delete Branch from local
 	>> git branch -d <Branchname>
+      
+       Delete Branch from remote
+	>> git push origin --delete <Branchname>
+
