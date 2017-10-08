@@ -15,4 +15,16 @@ STEP 2: Display or show tags
 	>> git show <tagname>
 	>> git tag -l "tagname.*" # Wild card 
 
+STEP 3: Push tags to remote repo
+	>> git push origin --tags
+	>> git push origin v1.0
+	>> git push tags
 
+STEP 4: to delete tags from local
+	>> git tag -d v1.00
+	>> git tag --delete v1.0
+	
+STEP 5: to delete from remote
+	>> git push origin -d v1.0
+	>> git push origin --delete v1.0
+	>> git push origin :v1.0
