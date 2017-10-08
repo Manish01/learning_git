@@ -28,3 +28,18 @@ STEP 5: to delete from remote
 	>> git push origin -d v1.0
 	>> git push origin --delete v1.0
 	>> git push origin :v1.0
+
+CHECKOUT TAGS:
+-------------
+  No concept of checkout tags in git. however, we can create a branch from a tag and checkout that branch.
+ 	>> git checkout -b <newbranchname> <tagname>
+
+CREATE TAGS FROM PAST COMMIT
+----------------------------
+	>> git tag <tagname> <referrence of commit>
+
+	For <reference> is the checksum no. 
+	>> git log 
+	search and copy a part of checksum
+EXAMPLE: >> git tag v1.0 d57e7a4e8 
+
