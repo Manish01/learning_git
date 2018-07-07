@@ -9,9 +9,9 @@ After installing Git.
 
 	git config --global user.email "email@email.com"                       
 
-	git config --glocal user.name  "gituser"                                  
+	git config --global user.name  "gituser"                                  
 
-	git config --glocal user.password  "gitpwd"                                  
+	git config --global user.password  "gitpwd"                                  
 
 It will track all the commits/changes on your github repository done by the specific user
 
